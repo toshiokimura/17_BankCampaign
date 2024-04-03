@@ -19,11 +19,13 @@ The first 7 models below use just the bank information features (columns 1 - 7: 
 
 * Overall test accuracy results are in the 87% - 91% range. 
 
+* Using all features vs. 7 features gives better results.
+
 * SVS takes a very long time at both the Train and Score stages.
 
 * DecisionTreeClassifier performs well at Train but not at Test, meaning overfitting.
 
-* Using all features vs. 7 features gives better results.
+* KNeighborsClassifier with k=19 is the best accuracy, which is ~1% better than the default (k=5).
 
 * "LogisticRegression all features L1 cost" performs the best (0.914732) among all the models I tested, but it is not that dramatically better than others.
 
