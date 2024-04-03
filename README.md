@@ -12,7 +12,7 @@ https://github.com/toshiokimura/17_BankCampaign/blob/main/17_prompt_III3.ipynb
 
 ## Model Comparisons
 
-The first 7 models below use just the bank information features (columns 1 - 7 age, job, marital, education, default, housing, and loan). The remaining 6 models use all the features.
+The first 7 models below use just the bank information features (columns 1 - 7: age, job, marital, education, default, housing, and loan). The remaining 6 models use all the features.
 
 ![image](https://github.com/toshiokimura/17_BankCampaign/assets/44044445/b67202ba-521d-4fce-a545-3a4a7490c6f5)
 
