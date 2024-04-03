@@ -20,3 +20,5 @@ Model	Train Time	Score Time	Train Accuracy	Test Accuracy
 10	LogisticRegression all features	6.636321	0.021000	0.910103	0.913761
 11	LogisticRegression all features L1 cost	5.238281	0.010944	0.910265	0.914732
 12	LogisticRegression all features L2 cost	0.580969	0.013006	0.909909	0.914635
+
+![image](https://github.com/toshiokimura/17_BankCampaign/assets/44044445/b67202ba-521d-4fce-a545-3a4a7490c6f5)
