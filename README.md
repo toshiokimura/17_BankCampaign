@@ -29,7 +29,10 @@ Using all features vs. 7 features gives better results.
 
 The reason behind this would be the data itself are not clearly separated between y = yes and y = no in the features space, so even if we tweak the model, there is a saturation of test accuracy.
 
-## Features influence the result
+
+## Important Features
+
+Based on the fitting result of LogisticRegression using all features at L1 cost, there are some features are highlighted as key to successful campaigns. 
 
 ![image](https://github.com/toshiokimura/17_BankCampaign/assets/44044445/8b66763a-a239-4f1b-820a-54b2f74d8c36)
 
