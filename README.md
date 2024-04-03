@@ -19,6 +19,8 @@ The first 7 models below use just the bank information features (columns 1 - 7: 
 
 Overall test accuracy results are in the 87% - 91% range. 
 
+SVS takes very long time for both at Train and Score stages.
+
 DecisionTreeClassifier performs well at Train, but not well at Test, meaning overfitting.
 
 Using all features vs. 7 features gives better results.
