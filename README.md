@@ -17,13 +17,13 @@ The first 7 models below use just the bank information features (columns 1 - 7: 
 ![image](https://github.com/toshiokimura/17_BankCampaign/assets/44044445/b67202ba-521d-4fce-a545-3a4a7490c6f5)
 
 
-#### - Overall test accuracy results are in the 87% - 91% range. 
+- Overall test accuracy results are in the 87% - 91% range. 
 
-#### - SVS takes very long time for both at Train and Score stages.
+- SVS takes very long time for both at Train and Score stages.
 
-#### - DecisionTreeClassifier performs well at Train, but not well at Test, meaning overfitting.
+* DecisionTreeClassifier performs well at Train, but not well at Test, meaning overfitting.
 
-#### - Using all features vs. 7 features gives better results.
+* Using all features vs. 7 features gives better results.
 
 #### - "LogisticRegression all features L1 cost" performs the best (0.914732) among all the models I tested, but it is not that dramatically better than others.
 
