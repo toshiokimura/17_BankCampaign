@@ -32,3 +32,5 @@ High chance in **March and August** and low chance in **May**.
 **"emp.var.rate"** has a negative impact to the succesful result.
 
 **"cons.price.idx"** has a positive impact to the succesful result.
+
+**"pdays"** has a negative impact to the succesful result. "pday" is the number of days that passed by after the client was last contacted from a previous campaign. So I will recommend the cliant to have campaigns successievely.
