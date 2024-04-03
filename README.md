@@ -19,7 +19,7 @@ The first 7 models below use just the bank information features (columns 1 - 7: 
 
 * Overall test accuracy results are in the 87% - 91% range. 
 
-* Using all features vs. 7 features gives better results.
+* Using all features vs. 7 features gives better results with acceptable increase of Train time.
 
 * SVS takes a very long time at both the Train and Score stages.
 
