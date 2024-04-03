@@ -29,7 +29,7 @@ The first 7 models below use just the bank information features (columns 1 - 7: 
 * The reason behind this would be the data itself are not clearly separated between y = yes and y = no in the features space, so even if we tweak the model, there is a saturation of test accuracy.
 
 
-## Model Comparisons
+## Important Features
 
 Based on the fitting result of LogisticRegression using all features at L1 cost, there are some features highlighted as key to successful campaigns.
 
