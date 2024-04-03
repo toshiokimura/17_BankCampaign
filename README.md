@@ -25,7 +25,7 @@ The first 7 models below use just the bank information features (columns 1 - 7: 
 
 * DecisionTreeClassifier performs well at Train but not at Test, meaning overfitting.
 
-* KNeighborsClassifier with k=19 is the best accuracy, which is ~1% better than the default (k=5).
+* KNeighborsClassifier at k=19 shows the best accuracy with ~1% better than the default (k=5).
 
 * "LogisticRegression all features L1 cost" performs the best (0.914732) among all the models I tested, but it is not that dramatically better than others.
 
