@@ -17,17 +17,17 @@ The first 7 models below use just the bank information features (columns 1 - 7: 
 ![image](https://github.com/toshiokimura/17_BankCampaign/assets/44044445/b67202ba-521d-4fce-a545-3a4a7490c6f5)
 
 
-- Overall test accuracy results are in the 87% - 91% range. 
+* Overall test accuracy results are in the 87% - 91% range. 
 
-- SVS takes very long time for both at Train and Score stages.
+* SVS takes very long time for both at Train and Score stages.
 
 * DecisionTreeClassifier performs well at Train, but not well at Test, meaning overfitting.
 
 * Using all features vs. 7 features gives better results.
 
-#### - "LogisticRegression all features L1 cost" performs the best (0.914732) among all the models I tested, but it is not that dramatically better than others.
+* "LogisticRegression all features L1 cost" performs the best (0.914732) among all the models I tested, but it is not that dramatically better than others.
 
-#### - The reason behind this would be the data itself are not clearly separated between y = yes and y = no in the features space, so even if we tweak the model, there is a saturation of test accuracy.
+* The reason behind this would be the data itself are not clearly separated between y = yes and y = no in the features space, so even if we tweak the model, there is a saturation of test accuracy.
 
 
 ## Important Features
@@ -37,12 +37,12 @@ Based on the fitting result of LogisticRegression using all features at L1 cost,
 ![image](https://github.com/toshiokimura/17_BankCampaign/assets/44044445/8b66763a-a239-4f1b-820a-54b2f74d8c36)
 
 
-High chance in **March and August** and low chance in **May**.
+* High chance in **March and August** and low chance in **May**.
 
-**Longer duration of contact** does matter to the succesful result. This can be controlled by the compnay, so I will recommend the cliant to talk as long as possible over the phone.
+* **Longer duration of contact** does matter to the succesful result. This can be controlled by the compnay, so I will recommend the cliant to talk as long as possible over the phone.
 
-**"emp.var.rate"** has a negative impact to the succesful result.
+* **"emp.var.rate"** has a negative impact to the succesful result.
 
-**"cons.price.idx"** has a positive impact to the succesful result.
+* **"cons.price.idx"** has a positive impact to the succesful result.
 
-**"pdays"** has a negative impact to the succesful result. "pday" is the number of days that passed by after the client was last contacted from a previous campaign. So I will recommend the cliant to have campaigns successievely.
+* **"pdays"** has a negative impact to the succesful result. "pday" is the number of days that passed by after the client was last contacted from a previous campaign. So I will recommend the cliant to have campaigns successievely.
