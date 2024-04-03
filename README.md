@@ -20,3 +20,15 @@ Using all features vs. 7 features gives better results.
 "LogisticRegression all features L1 cost" performs the best (0.914732) among all the models I tested, but it is not that dramatically better than others.
 
 The reason behind this would be the data itself are not clearly separated between y = yes and y = no in the features space, so even if we tweak the model, there is a saturation of test accuracy.
+
+
+![image](https://github.com/toshiokimura/17_BankCampaign/assets/44044445/8b66763a-a239-4f1b-820a-54b2f74d8c36)
+
+
+High chance in **March and August** and low chance in **May**.
+
+**Longer duration of contact** does matter to the succesful result. This can be controlled by the compnay, so I will recommend the cliant to talk as long as possible over the phone.
+
+**"emp.var.rate"** has a negative impact to the succesful result.
+
+**"cons.price.idx"** has a positive impact to the succesful result.
